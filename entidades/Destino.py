@@ -7,3 +7,6 @@ class Destino:
     @property
     def id(self):
         return self.__id
+
+    def obtener_valor_en_cop(self, valor: float) -> float:
+        pass
