@@ -19,3 +19,11 @@ A
 entidades/Euro.py,a\0\a0d36c88069f10cfa6aa88de08168a2bb45a4e58
 C
 entidades/Dollar.py,f\9\f900a83f7c69ed7ea708e9eadc85d7d8caceaafd
+S
+#controladores/PersonaControlador.py,e\4\e4c54a0d6c6a4d8e30837fc05c348eda0ae4341f
+S
+#controladores/ControladorPersona.py,f\2\f2697610fbfdb9b62af17b268e6b7f463450a614
+Q
+!controladores/ControladorViaje.py,4\d\4dd03125284badf384773e5fdb03935dcfadc94e
+Q
+!controladores/ControladorGasto.py,5\6\56e784ff9de51410bf1d5162d9507e5fa8e6414e

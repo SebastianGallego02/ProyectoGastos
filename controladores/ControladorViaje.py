@@ -1,0 +1,2 @@
+class ControladorViaje:
+    pass
