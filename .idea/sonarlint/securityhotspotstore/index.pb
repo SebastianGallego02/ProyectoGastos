@@ -1,0 +1,17 @@
+
+7
+main.py,f\1\f1bdda93d9a278e358509d498e17d97764c1fb29
+D
+entidades/Persona.py,8\f\8f7aeb550bb0f9c64dd42181123295a64766a87a
+B
+entidades/Gasto.py,9\0\90239504e396af75bcfa6bbca7cf49275879320f
+B
+entidades/Viaje.py,b\2\b2cc79024a59328454a9ad85a2f9a25118fae169
+D
+entidades/Destino.py,0\e\0e055481e672a190a7180d0d3fb3d2e5aba6e2ff
+F
+entidades/TipoGasto.py,5\0\50a585bd7d94dbce411f4c455769a6a2a3f2ed23
+E
+entidades/TipoPago.py,3\e\3e5b3517b8425b5fdd6319e08dc323461191ada2
+C
+entidades/Moneda.py,8\7\87842e6939654c09ff99f486d93d8bd5829aa0fa
