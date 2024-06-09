@@ -15,3 +15,7 @@ E
 entidades/TipoPago.py,3\e\3e5b3517b8425b5fdd6319e08dc323461191ada2
 C
 entidades/Moneda.py,8\7\87842e6939654c09ff99f486d93d8bd5829aa0fa
+A
+entidades/Euro.py,a\0\a0d36c88069f10cfa6aa88de08168a2bb45a4e58
+C
+entidades/Dollar.py,f\9\f900a83f7c69ed7ea708e9eadc85d7d8caceaafd
