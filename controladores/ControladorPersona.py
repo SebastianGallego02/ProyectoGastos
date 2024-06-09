@@ -1,2 +1,4 @@
 class ControladorPersona:
-    pass
+
+    def obtener_persona(self):
+        pass
