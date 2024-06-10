@@ -16,5 +16,7 @@ class ControladorTipoGasto:
     def administrador_controladores(self, administrador_controladores: AdministradorControladores):
         self.__administrador_controladores = administrador_controladores
 
-    def validar_tipo_gasto(self, id: str):
-        pass
+    def obtener_tipo_gasto(self, id: str) -> TipoGasto:
+        for tipo_gasto in self.__tipos_gasto:
+            if id == tipo_gasto.id:
+                return tipo_gasto

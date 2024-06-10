@@ -16,5 +16,7 @@ class ControladorTipoPago:
     def administrador_controladores(self, administrador_controladores: AdministradorControladores):
         self.__administrador_controladores = administrador_controladores
 
-    def validar_tipo_pago(self, id: str):
-        pass
+    def obtener_tipo_pago(self, id: str) -> TipoPago:
+        for tipo_pago in self.__tipos_pago:
+            if id == tipo_pago.id:
+                return tipo_pago
