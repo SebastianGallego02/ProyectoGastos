@@ -7,3 +7,7 @@ class TipoGasto:
     @property
     def id(self):
         return self.__id
+
+    @property
+    def nombre(self):
+        return self.__nombre

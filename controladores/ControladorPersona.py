@@ -1,4 +1,4 @@
-from AdministadorControladores import AdministradorControladores
+from AdministradorControladores import AdministradorControladores
 from entidades.Persona import Persona
 
 

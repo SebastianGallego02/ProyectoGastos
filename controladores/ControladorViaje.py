@@ -1,6 +1,6 @@
 from datetime import date
 
-from AdministadorControladores import AdministradorControladores
+from AdministradorControladores import AdministradorControladores
 from entidades.Viaje import Viaje
 
 
