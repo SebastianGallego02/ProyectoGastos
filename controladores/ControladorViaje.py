@@ -30,10 +30,11 @@ class ControladorViaje:
         persona = controlador_persona.obtener_persona()
         destino = controlador_destino.obtener_destino()
 
-        if self.validar_fecha(fecha_inicio, fecha_fin):
-            id = str(len(self.__viajes) + 1)
-            nuevo_viaje = Viaje(id, fecha_inicio, fecha_fin, presupuesto_x_dia, destino, persona)
-            self.__viajes.append(nuevo_viaje)
+        if not self.validar_fecha(fecha_inicio, fecha_fin):
+            return
+        id = str(len(self.__viajes) + 1)
+        nuevo_viaje = Viaje(id, fecha_inicio, fecha_fin, presupuesto_x_dia, destino, persona)
+        self.__viajes.append(nuevo_viaje)
 
     def validar_fecha(self, fecha_inicio: date, fecha_fin: date) -> bool:
         for viaje in self.__viajes:
