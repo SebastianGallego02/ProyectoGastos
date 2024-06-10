@@ -23,9 +23,11 @@ class ControladorViaje:
         Método que manejará la mayoría de la lógica del registro de un viaje
         :return: booleano indicando si se registró correctamente el viaje
         """
-        controlador_viaje = self.__administrador_controladores.get_controlador('ControladorViaje')
-        persona = controlador_viaje.obtener_persona()
-        destino = controlador_viaje.obtener_destino()
+        controlador_persona = self.__administrador_controladores.get_controlador('ControladorPersona')
+        controlador_destino = self.__administrador_controladores.get_controlador('ControladorDestino')
+
+        persona = controlador_persona.obtener_persona()
+        destino = controlador_destino.obtener_destino()
 
         if self.validar_fecha(fecha_inicio, fecha_fin):
             id = str(len(self.__viajes) + 1)
