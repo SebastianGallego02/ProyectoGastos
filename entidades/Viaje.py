@@ -7,7 +7,7 @@ from entidades.Persona import Persona
 class Viaje:
 
     def __init__(self, id: str, fecha_inicio: int, fecha_fin: date, presupuesto_x_dia: float, destino: Destino,
-                 persona: Persona):
+        persona: Persona):
         self.__id = id
         self.__fecha_inicio = fecha_inicio
         self.__fecha_fin = fecha_fin
