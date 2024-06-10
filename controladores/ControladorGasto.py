@@ -23,7 +23,7 @@ class ControladorGasto:
         viaje = controlador_viaje.obtener_viaje(id_viaje)
         if not viaje.validar_fecha_gasto(fecha_gasto):
             return
-        valor_en_cop = viaje.destino.obtener_valor_en_cop()
+        valor_en_cop = viaje.destino.obtener_valor_en_cop(valor_gastado)
         controlador_tipo_pago = self.__administrador_controladores.get_controlador('ControladorTipoPago')
         tipo_pago = controlador_tipo_pago.obtener_tipo_pago(id_tipo_pago)
         controlador_tipo_gasto = self.__administrador_controladores.get_controlador('ControladorTipoGasto')

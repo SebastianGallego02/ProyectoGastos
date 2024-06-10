@@ -16,7 +16,5 @@ class Destino:
     def nombre(self):
         return self.__nombre
 
-
-
     def obtener_valor_en_cop(self, valor: float) -> float:
         return valor * self.__moneda.obtener_valor_moneda()
