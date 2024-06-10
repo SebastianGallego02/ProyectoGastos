@@ -16,5 +16,8 @@ class ControladorPersona:
     def administrador_controladores(self, administrador_controladores: AdministradorControladores):
         self.__administrador_controladores = administrador_controladores
 
-    def obtener_persona(self):
-        pass
+    def obtener_persona(self, identificacion: str):
+        for persona in self.__personas:
+            if persona.identificacion == identificacion:
+                return persona
+
