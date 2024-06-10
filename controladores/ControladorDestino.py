@@ -16,5 +16,7 @@ class ControladorDestino:
     def administrador_controladores(self, administrador_controladores: AdministradorControladores):
         self.__administrador_controladores = administrador_controladores
 
-    def obtener_destino(self):
-        pass
+    def obtener_destino(self, nombre):
+        for destino in self.__destinos:
+            if destino.nombre == nombre:
+                return destino
