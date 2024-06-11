@@ -21,3 +21,7 @@ class ControladorPersona:
             if persona.identificacion == identificacion:
                 return persona
 
+    
+    def crear_persona(self, identificacion: str, nombre: str):
+        nueva_persona = Persona(identificacion, nombre)
+        self.__personas.append(nueva_persona)

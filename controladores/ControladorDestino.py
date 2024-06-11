@@ -20,3 +20,6 @@ class ControladorDestino:
         for destino in self.__destinos:
             if destino.nombre == nombre:
                 return destino
+
+    def crear_destino(self, nombre, moneda):
+        destino = Destino(len(self.__destinos)+1, nombre, moneda)

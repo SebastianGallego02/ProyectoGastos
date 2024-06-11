@@ -20,3 +20,7 @@ class ControladorTipoPago:
         for tipo_pago in self.__tipos_pago:
             if id == tipo_pago.id:
                 return tipo_pago
+
+    def crear_tipo_pago(self, nombre):
+        tipo_nuevo = TipoPago(len(self.__tipos_pago) + 1, nombre)
+        self.__tipos_pago.append(tipo_nuevo)
