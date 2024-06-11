@@ -22,4 +22,5 @@ class ControladorDestino:
                 return destino
 
     def crear_destino(self, nombre, moneda):
-        destino = Destino(len(self.__destinos)+1, nombre, moneda)
+        destino = Destino(len(self.__destinos) + 1, nombre, moneda)
+        self.__destinos.append(destino)

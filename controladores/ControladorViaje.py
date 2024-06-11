@@ -19,7 +19,7 @@ class ControladorViaje:
         self.__administrador_controladores = administrador_controladores
 
     def registrar_viaje(self, identificacion: str, nombre_destino: str, fecha_inicio: date, fecha_fin: date,
-                        presupuesto_x_dia):
+                        presupuesto_x_dia: float) -> str:
         """
         Método que manejará la mayoría de la lógica del registro de un viaje
         :return: booleano indicando si se registró correctamente el viaje
@@ -35,6 +35,7 @@ class ControladorViaje:
         nuevo_id = str(len(self.__viajes) + 1)
         nuevo_viaje = Viaje(nuevo_id, fecha_inicio, fecha_fin, presupuesto_x_dia, destino, persona)
         self.__viajes.append(nuevo_viaje)
+        return nuevo_id
 
     def validar_fecha(self, fecha_inicio: date, fecha_fin: date) -> bool:
         for viaje in self.__viajes:

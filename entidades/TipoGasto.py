@@ -1,6 +1,6 @@
 class TipoGasto:
 
-    def __init__(self, id: int, nombre: str):
+    def __init__(self, id: str, nombre: str):
         self.__id = id
         self.__nombre = nombre
 

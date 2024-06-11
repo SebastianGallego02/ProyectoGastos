@@ -22,5 +22,5 @@ class ControladorTipoGasto:
                 return tipo_gasto
 
     def crear_tipo_gasto(self, nombre):
-        tipo_nuevo = TipoGasto(len(self.__tipos_gasto) + 1, nombre)
+        tipo_nuevo = TipoGasto(str(len(self.__tipos_gasto) + 1), nombre)
         self.__tipos_gasto.append(tipo_nuevo)

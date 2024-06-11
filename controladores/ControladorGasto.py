@@ -26,6 +26,8 @@ class ControladorGasto:
                         id_tipo_gasto: str):
         controlador_viaje = self.__administrador_controladores.get_controlador('ControladorViaje')
         viaje = controlador_viaje.obtener_viaje(id_viaje)
+        if viaje is None:
+            return
         if not viaje.validar_fecha_gasto(fecha_gasto):
             return
         valor_en_cop = viaje.destino.obtener_valor_en_cop(valor_gastado)

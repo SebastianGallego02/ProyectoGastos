@@ -27,3 +27,9 @@ Q
 !controladores/ControladorGasto.py,5\6\56e784ff9de51410bf1d5162d9507e5fa8e6414e
 S
 #controladores/ControladorDestino.py,4\4\441d685903789d46b2d2ddca9c7a508f882d8216
+U
+%controladores/ControladorTipoGasto.py,6\2\62e6e3bfe9f53ee3f7a1ffe169a9f4b5a50228e7
+T
+$controladores/ControladorTipoPago.py,5\c\5c0bacb5b452cccf0c6561b400c11b3a8fc36caf
+M
+AdministradorControladores.py,2\1\215746c08df8bd26322505eedb8b154dc0db6373
